@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MTP/static/css/main.bcb6fdec.css",
+    "main.js": "/MTP/static/js/main.980c67d8.js",
+    "index.html": "/MTP/index.html",
+    "main.bcb6fdec.css.map": "/MTP/static/css/main.bcb6fdec.css.map",
+    "main.980c67d8.js.map": "/MTP/static/js/main.980c67d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcb6fdec.css",
+    "static/js/main.980c67d8.js"
+  ]
+}
