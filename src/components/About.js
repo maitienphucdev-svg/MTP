@@ -20,29 +20,29 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently a <b>Software Engineer</b> at
-        <a href="https://www.ads.google.com/"> Google</a>, where I help build
-        autobidder models that make Google Search money. Previously, I was at
-        <a href="https://www.aboutamazon.com/"> Amazon</a> and{" "}
-        <a href="https://newsroom.pinterest.com/company/"> Pinterest.</a> At the
-        same time, I am undertaking a part-time <b> Master's of Science</b> in{" "}
-        <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+        <a href="https://duytan.edu.vn/"> Duy Tan University</a>, where I am building
+        a strong foundation in software development and modern technologies.
+        I have a strong passion for the <b>Apple</b> ecosystem and iOS development,
+        and I enjoy exploring how technology can create seamless and elegant user experiences.
       </p>
     );
     const two = (
       <p>
-        Outside of work, I’m nerdy about tech gadgets, love literary fiction,
-        and play way too many battle royale games. Oh, I make content too.
+        Outside of my studies, I’m really into tech gadgets, especially Apple products.
+        I also enjoy gaming and listening to music in my free time.
+        <br /><br />
+        <a href="https://www.apple.com/careers/" target="_blank" rel="noopener noreferrer">
+          One day, I aspire to work at Apple and contribute to building meaningful products.
+        </a>
       </p>
     );
 
     const tech_stack = [
       "Python",
-      "Typescript",
-      "React.js",
-      "Java",
-      "Javascript ES6+",
-      "C#",
+      "Swift",
+      "Dart",
+      "UIKiT",
+      "JavaScript"
     ];
 
     return (
@@ -67,7 +67,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img alt="Gazi Jarin" src={"/assets/me2.jpg"} />
+              <img alt="Mai Phuc" src={"/assets/me2.jpeg"} />
             </div>
           </div>
         </FadeInSection>

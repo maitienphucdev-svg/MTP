@@ -27,7 +27,7 @@
 .Typist {
   color: var(--lightest-slate);
   text-align: left;
-  font-size: 64px;
+  font-size: 48px;
 }
 
 .Typist .Cursor--blinking {
@@ -36,19 +36,19 @@
 }
 
 .intro-title {
-  font-family: "NTR", sans-serif;
-  font-size: 64px;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
 }
 
 .intro-name {
-  font-family: "NTR", sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--green-bright);
   font-weight: bold;
-  font-size: 64px;
+  font-size: 48px;
 }
 
 .intro-subtitle {
-  font-family: "NTR", sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--slate);
   text-align: left;
   font-weight: 300;
@@ -57,7 +57,7 @@
 
 .intro-desc {
   color: var(--slate);
-  font-family: "NTR", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   text-align: left;
   max-width: 100%;
@@ -72,7 +72,7 @@
   gap: 6px;
   font-size: 16px;
   font-weight: bolder;
-  font-family: "NTR", sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 12px 32px;
   cursor: pointer;
   border: 1px solid var(--green-bright);
@@ -92,11 +92,11 @@
 
   .intro-title,
   .intro-name {
-    font-size: 64px;
+    font-size: 42px;
   }
 
   .Typist {
-    font-size: 58px;
+    font-size: 42px;
   }
 
   .intro-subtitle {

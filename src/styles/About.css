@@ -31,7 +31,7 @@
 }
 
 .about-description {
-  font-family: "NTR", sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--slate);
   max-width: 600px;
   font-size: 22px;
@@ -50,9 +50,16 @@
 }
 
 .about-image img {
-  max-width: 300px;
-  height: auto;
+  width: 280px;
+  /* Chỉnh chiều rộng ảnh ở đây */
+  height: 360px;
+  /* Chỉnh chiều cao ảnh ở đây */
+  object-fit: cover;
+  /* Giữ tỷ lệ ảnh không bị méo khi cắt */
+  object-position: center 15%;
+  /* Trọng tâm cắt đã được cắt bỏ mảng đen đỉnh đầu */
   border-radius: 10px;
+  /* Chỉnh độ bo tròn góc ảnh */
   margin-left: 30px;
   box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
   border: none;
