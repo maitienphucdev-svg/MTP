@@ -114,7 +114,7 @@ class Projects extends React.Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={spotlightProjects[key]["image"]}
+                src={process.env.PUBLIC_URL + spotlightProjects[key]["image"]}
                 alt={key}
               />
               <div className="caption-bg">
